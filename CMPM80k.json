@@ -734,6 +734,48 @@
         "name": "assets\\knight_walk_up4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/tv_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tv_walk1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tv_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tv_walk2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tv_walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tv_walk4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tv_walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tv_walk3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DashBeep.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\DashBeep.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1923,6 +1965,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 40,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -1933,24 +1977,22 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 20,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
             {
-              "name": "Idle",
+              "name": "Walk",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.125,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Idle_1.png",
+                      "image": "assets\\tv_walk1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1966,27 +2008,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 4
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 4
+                            "x": 29,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 6,
-                            "y": 21
+                            "x": 4,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Idle_2.png",
+                      "image": "assets\\tv_walk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2002,27 +2044,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 4
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 4
+                            "x": 29,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 6,
-                            "y": 21
+                            "x": 4,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Idle_3.png",
+                      "image": "assets\\tv_walk3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2038,27 +2080,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 4
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 4
+                            "x": 29,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 6,
-                            "y": 21
+                            "x": 4,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Idle_4.png",
+                      "image": "assets\\tv_walk4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2074,800 +2116,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 4
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 4
+                            "x": 29,
+                            "y": 1
                           },
                           {
-                            "x": 21,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Crouch",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Crouch.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Hurt_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Hurt_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Hurt_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Hurt_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Kick",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1667,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Kick_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Kick_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Kick_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Move",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Move_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sneak",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Mort_Sneak_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 6,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 4
-                          },
-                          {
-                            "x": 21,
-                            "y": 21
-                          },
-                          {
-                            "x": 6,
-                            "y": 21
+                            "x": 4,
+                            "y": 31
                           }
                         ]
                       ]
@@ -3537,6 +2799,42 @@
               "parameters": [
                 "MC",
                 "\"DashTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"DashTimer\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\DashBeep.wav",
+                "",
+                "30",
+                ""
               ]
             }
           ]
