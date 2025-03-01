@@ -836,6 +836,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Evil",
+          "persistentUuid": "8f5a8cb2-92f5-4ada-bd68-7001ab6440ca",
+          "width": 52,
+          "x": 1097,
+          "y": 578,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1899,12 +1916,29 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "3fb273ffe77ca5ae776a6e86cde912815bac35d53e5cbfb869940edd534dee97",
-          "name": "DinoMort",
+          "name": "Evil",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 40,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 20,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -2932,7 +2966,7 @@
             "objectName": "DivineSword"
           },
           {
-            "objectName": "DinoMort"
+            "objectName": "Evil"
           },
           {
             "objectName": "NewTiledSprite"
@@ -3506,6 +3540,58 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Bad Guy Tracking"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "Evil",
+                "200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Evil",
+                "Pathfinding",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Evil",
+                "Pathfinding",
+                "",
+                "MC.X()",
+                "MC.Y()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -3603,6 +3689,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "RemapForTopdown",
