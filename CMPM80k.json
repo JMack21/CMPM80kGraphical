@@ -596,6 +596,56 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Roll.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Roll.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_down1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_down1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_down2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_down3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_down4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_right2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -772,7 +822,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Down_1.png",
+                      "image": "assets\\knight_walk_down1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -794,27 +844,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Down_2.png",
+                      "image": "assets\\knight_walk_down2.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -836,27 +886,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Down_3.png",
+                      "image": "assets\\knight_walk_down3.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -878,20 +928,62 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_down4.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -932,20 +1024,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -974,20 +1066,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1016,20 +1108,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1070,20 +1162,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1112,20 +1204,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1154,20 +1246,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1208,20 +1300,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1250,20 +1342,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
@@ -1292,25 +1384,155 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 2,
+                            "x": 3,
                             "y": 1
                           },
                           {
-                            "x": 14,
+                            "x": 17,
                             "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 16
+                            "x": 17,
+                            "y": 19
                           },
                           {
-                            "x": 2,
-                            "y": 16
+                            "x": 3,
+                            "y": 19
                           }
                         ]
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "IdleDown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_down2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IdleLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "IdleRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_right2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IdleUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
@@ -2405,6 +2627,18 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Start"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2456,6 +2690,48 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "DivineSword",
+                "=",
+                "MC.PointX(\"Sword\")",
+                "=",
+                "MC.PointY(\"Sword\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "DivineSword",
+                "CursorX()",
+                "CursorY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -2482,30 +2758,27 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "DivineSword",
+                "MC",
+                "Animation",
                 "=",
-                "MC.PointX(\"Sword\")",
-                "=",
-                "MC.PointY(\"Sword\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "DivineSword",
-                "CursorX()",
-                "CursorY()",
-                "0",
-                ""
+                "\"IdleDown\""
               ]
             }
           ]
@@ -2539,6 +2812,93 @@
                 "assets\\SwordSlash.wav",
                 "",
                 "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Roll.wav",
+                "",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "MC",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "MC",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Step.wav",
+                "",
+                "20",
                 ""
               ]
             }
