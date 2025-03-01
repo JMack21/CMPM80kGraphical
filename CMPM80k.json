@@ -566,6 +566,36 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Weird Swords/bb1c7e69965b182e7c64eefea727b3aa7d1783b06a7552fea67a77d086379d07_Divine Sword.png",
           "name": "Divine Sword.png"
         }
+      },
+      {
+        "file": "assets/firstNes.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\firstNes.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Step.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Step.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SwordSlash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\SwordSlash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2409,6 +2439,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\firstNes.wav",
+                "yes",
+                "20",
+                ""
+              ]
             }
           ]
         },
@@ -2463,6 +2505,40 @@
                 "CursorX()",
                 "CursorY()",
                 "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\SwordSlash.wav",
+                "",
+                "30",
                 ""
               ]
             }
