@@ -646,6 +646,94 @@
         "name": "assets\\knight_walk_right2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_left1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_left1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_left2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_left3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_left4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_left4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_right1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_right1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_right4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_up1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_up2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_up3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/knight_walk_up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\knight_walk_up4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1002,7 +1090,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Left_1.png",
+                      "image": "assets\\knight_walk_left1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1044,7 +1132,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Left_2.png",
+                      "image": "assets\\knight_walk_left2.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1086,7 +1174,49 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Left_3.png",
+                      "image": "assets\\knight_walk_left3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_left4.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1140,7 +1270,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Right_1.png",
+                      "image": "assets\\knight_walk_right1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1182,7 +1312,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Right_2.png",
+                      "image": "assets\\knight_walk_right2.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1224,7 +1354,49 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Right_3.png",
+                      "image": "assets\\knight_walk_right3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_right4.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1278,7 +1450,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Up_1.png",
+                      "image": "assets\\knight_walk_up1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1320,7 +1492,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Up_2.png",
+                      "image": "assets\\knight_walk_up2.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1362,7 +1534,49 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Conjurer 1_Up_3.png",
+                      "image": "assets\\knight_walk_up3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_up4.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1467,7 +1681,50 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_left1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -1481,7 +1738,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\knight_walk_right2.png",
+                      "image": "assets\\knight_walk_right1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1532,7 +1789,50 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_up1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 19
+                          },
+                          {
+                            "x": 3,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
