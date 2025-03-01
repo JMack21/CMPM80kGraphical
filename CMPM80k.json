@@ -610,7 +610,7 @@
       {
         "file": "assets/knight_walk_down1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_down1.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_down1.png",
         "smoothed": false,
         "userAdded": false
@@ -618,7 +618,7 @@
       {
         "file": "assets/knight_walk_down2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_down2.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_down2.png",
         "smoothed": false,
         "userAdded": false
@@ -626,7 +626,7 @@
       {
         "file": "assets/knight_walk_down3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_down3.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_down3.png",
         "smoothed": false,
         "userAdded": false
@@ -634,7 +634,7 @@
       {
         "file": "assets/knight_walk_down4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_down4.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_down4.png",
         "smoothed": false,
         "userAdded": false
@@ -706,7 +706,7 @@
       {
         "file": "assets/knight_walk_up1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_up1.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_up1.png",
         "smoothed": false,
         "userAdded": false
@@ -714,7 +714,7 @@
       {
         "file": "assets/knight_walk_up2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_up2.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_up2.png",
         "smoothed": false,
         "userAdded": false
@@ -722,7 +722,7 @@
       {
         "file": "assets/knight_walk_up3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_up3.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_up3.png",
         "smoothed": false,
         "userAdded": false
@@ -730,7 +730,7 @@
       {
         "file": "assets/knight_walk_up4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/knight_walk_up4.png\",\"extension\":\".png\"}",
         "name": "assets\\knight_walk_up4.png",
         "smoothed": false,
         "userAdded": false
@@ -776,6 +776,184 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_down2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_down3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_down4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_down1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_down1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_left1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/kid_walk_left1.png\",\"extension\":\".png\"}",
+        "name": "assets\\kid_walk_left1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_left2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/kid_walk_left2.png\",\"extension\":\".png\"}",
+        "name": "assets\\kid_walk_left2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_left3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/kid_walk_left3.png\",\"extension\":\".png\"}",
+        "name": "assets\\kid_walk_left3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_left4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/kid_walk_left4.png\",\"extension\":\".png\"}",
+        "name": "assets\\kid_walk_left4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_right1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_right1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_right2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_right4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_up1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_up2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_up3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kid_walk_up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kid_walk_up4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/switch_off.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/switch_off.png\",\"extension\":\".png\"}",
+        "name": "assets\\switch_off.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/switch_on.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/switch_on.png\",\"extension\":\".png\"}",
+        "name": "assets\\switch_on.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/LightSwitch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\LightSwitch.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tv_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tv_normal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_switch_off.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\switch_off",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_switch_on.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\switch_on",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -785,7 +963,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "visible",
+      "type": "number",
+      "value": 1
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -807,7 +991,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5800155239904874,
+        "zoomFactor": 1.2436836988380144,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -832,13 +1016,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 37,
+          "depth": 0.7207207207207207,
+          "height": 40,
           "keepRatio": true,
           "layer": "",
           "name": "MC",
           "persistentUuid": "2a98d55e-e631-423b-91cb-94394a696f48",
-          "width": 50,
+          "width": 40,
           "x": 932,
           "y": 574,
           "zOrder": 3,
@@ -892,6 +1076,39 @@
           "x": 1097,
           "y": 578,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "kid",
+          "persistentUuid": "105ef72d-c235-4b07-b779-e1d1c63481b2",
+          "width": 40,
+          "x": 932,
+          "y": 574,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "layer": "",
+          "name": "switch",
+          "persistentUuid": "1698c735-85cd-414f-8157-bcee730660fc",
+          "width": 10,
+          "x": 1212,
+          "y": 577,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -985,50 +1202,9 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1667,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\knight_walk_down1.png",
-                      "points": [
-                        {
-                          "name": "Sword",
-                          "x": 11.5,
-                          "y": 12.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 8.5,
-                        "y": 8
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 19
-                          },
-                          {
-                            "x": 3,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\knight_walk_down2.png",
@@ -1062,18 +1238,18 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\knight_walk_down3.png",
+                      "image": "assets\\knight_walk_down1.png",
                       "points": [
                         {
                           "name": "Sword",
@@ -1104,11 +1280,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1146,11 +1322,53 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_down3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
                           }
                         ]
                       ]
@@ -1200,11 +1418,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1242,11 +1460,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1284,11 +1502,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1326,11 +1544,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1380,11 +1598,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1422,11 +1640,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1464,11 +1682,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1506,11 +1724,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1525,50 +1743,9 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1667,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\knight_walk_up1.png",
-                      "points": [
-                        {
-                          "name": "Sword",
-                          "x": 11.5,
-                          "y": 12.5
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 8.5,
-                        "y": 8
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 3,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 1
-                          },
-                          {
-                            "x": 17,
-                            "y": 19
-                          },
-                          {
-                            "x": 3,
-                            "y": 19
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\knight_walk_up2.png",
@@ -1602,11 +1779,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1644,11 +1821,53 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\knight_walk_up1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
                           }
                         ]
                       ]
@@ -1686,11 +1905,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1740,11 +1959,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1794,11 +2013,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1848,11 +2067,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -1902,11 +2121,11 @@
                           },
                           {
                             "x": 17,
-                            "y": 19
+                            "y": 18
                           },
                           {
                             "x": 3,
-                            "y": 19
+                            "y": 18
                           }
                         ]
                       ]
@@ -2137,6 +2356,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\tv_normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 4,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2210,6 +2477,789 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "kid",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "RemapForTopdown",
+              "type": "BehaviorRemapper::RemapForTopdown",
+              "Up": "w",
+              "Left": "a",
+              "Right": "d",
+              "Down": "s",
+              "Topdown": "TopDownMovement"
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 4000,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 8000,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "movementAngleOffset": 0,
+              "rotateObject": false,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "assets\\kid_walk_left1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 4
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "switch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\switch_off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\switch_off",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "assets\\switch_on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\switch_on",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2220,6 +3270,15 @@
           },
           {
             "objectName": "MC"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "kid"
+          },
+          {
+            "objectName": "switch"
           },
           {
             "objectName": "NewSprite"
@@ -2309,6 +3368,14 @@
               "parameters": [
                 "MC",
                 "\"DashTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "kid"
               ]
             }
           ]
@@ -2887,6 +3954,123 @@
                 "",
                 "MC.X()",
                 "MC.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "switch test"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "visible",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "switch",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "MC"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "kid",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "switch",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\LightSwitch.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::Speed"
+              },
+              "parameters": [
+                "Evil",
+                "Pathfinding",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Evil",
+                "Animation",
+                "=",
+                "1"
               ]
             }
           ]
