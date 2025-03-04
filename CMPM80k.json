@@ -1197,7 +1197,7 @@
           ],
           "animations": [
             {
-              "name": "12",
+              "name": "120",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1378,7 +1378,7 @@
               ]
             },
             {
-              "name": "11",
+              "name": "110",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1558,7 +1558,7 @@
               ]
             },
             {
-              "name": "13",
+              "name": "130",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1738,7 +1738,7 @@
               ]
             },
             {
-              "name": "10",
+              "name": "100",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1919,7 +1919,7 @@
               ]
             },
             {
-              "name": "02",
+              "name": "020",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1973,7 +1973,7 @@
               ]
             },
             {
-              "name": "01",
+              "name": "010",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2027,7 +2027,7 @@
               ]
             },
             {
-              "name": "03",
+              "name": "030",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2081,7 +2081,7 @@
               ]
             },
             {
-              "name": "00",
+              "name": "000",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2091,6 +2091,943 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\knight_walk_up1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "121",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down4.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "111",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left4.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "131",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right4.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "101",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up2.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up3.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up4.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "021",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_down1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "011",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_left1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "031",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_right1.png",
+                      "points": [
+                        {
+                          "name": "Sword",
+                          "x": 11.5,
+                          "y": 12.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 8.5,
+                        "y": 8
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 1
+                          },
+                          {
+                            "x": 17,
+                            "y": 18
+                          },
+                          {
+                            "x": 3,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "001",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kid_walk_up1.png",
                       "points": [
                         {
                           "name": "Sword",
