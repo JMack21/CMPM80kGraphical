@@ -954,6 +954,26 @@
         "name": "assets\\switch_on",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/DungeonTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonTileset.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Tilemap/f469d4ca0e9db04881240e083c902868979588fa9b36e7017c19f4f111b6189c_DungeonTileset.png",
+          "name": "DungeonTileset.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2144,8 +2164,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2324,9 +2344,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1667,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2505,8 +2525,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2685,8 +2705,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -4099,7 +4119,13 @@
           "name": "switch",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "isLight",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4202,6 +4228,82 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lightning",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "8da40d3413a7a9d7e57eb2a12735c5ef5713ac271a6eade6f8acf21ccad3f02e",
+          "name": "TopDownDungeon16x16",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "DungeonTileset.png",
+            "rowCount": 16,
+            "columnCount": 14,
+            "tileSize": 16,
+            "tilesWithHitBox": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4232,6 +4334,9 @@
             "objectName": "Evil"
           },
           {
+            "objectName": "Lightning"
+          },
+          {
             "objectName": "NewTiledSprite"
           },
           {
@@ -4239,6 +4344,9 @@
           },
           {
             "objectName": "Ground3"
+          },
+          {
+            "objectName": "TopDownDungeon16x16"
           }
         ]
       },
@@ -4318,6 +4426,17 @@
               },
               "parameters": [
                 "kid"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "light_on",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4619,7 +4738,7 @@
                 "MC",
                 "Animation",
                 "=",
-                "MC.movementState + MC.direction"
+                "MC.movementState + MC.direction + MC.light_on"
               ]
             }
           ]
@@ -4706,11 +4825,23 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"j\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "switch",
+                "30",
+                ""
               ]
             },
             {
@@ -4873,6 +5004,17 @@
                 "200",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -4917,11 +5059,11 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextPressed"
+                "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"j\""
               ]
             },
             {
@@ -4947,29 +5089,23 @@
             },
             {
               "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "MC"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "kid",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -4995,22 +5131,43 @@
             },
             {
               "type": {
-                "value": "PathfindingBehavior::Speed"
-              },
-              "parameters": [
-                "Evil",
-                "Pathfinding",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "Evil",
                 "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "light_on",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Evil",
+                "Pathfinding",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
                 "=",
                 "1"
               ]
