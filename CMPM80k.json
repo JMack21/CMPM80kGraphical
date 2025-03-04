@@ -1166,6 +1166,11 @@
               "name": "movementState",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "light_on",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
