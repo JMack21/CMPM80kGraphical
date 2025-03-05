@@ -1102,6 +1102,46 @@
         "name": "assets\\sword",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/living_room1.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets\\living_room1.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/living_room1.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets\\living_room1.tmj",
+        "userAdded": false
+      },
+      {
+        "file": "assets/DungeonTileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DungeonTileset.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dungeon1.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets\\dungeon1.tmj",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dungeon1.json",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "assets\\dungeon1.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3606,7 +3646,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.8496162693652725,
+        "zoomFactor": 0.5995738389111133,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3641,23 +3681,6 @@
           "x": 1014,
           "y": 674,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 724,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Ground3",
-          "persistentUuid": "0869af70-31c9-4285-b1ce-1e7ae8f12b90",
-          "width": 1150,
-          "x": 398,
-          "y": 224,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3707,6 +3730,22 @@
           "x": 1028,
           "y": 389,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewExternalTileMap",
+          "persistentUuid": "3c614114-0c9f-4e2b-a43c-81708cd9a3c0",
+          "width": 0,
+          "x": 190,
+          "y": 333,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4127,6 +4166,24 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewExternalTileMap",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "assets\\dungeon1.tmj",
+            "tilesetJsonFile": "",
+            "tilemapAtlasImage": "assets\\DungeonTileset.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4149,6 +4206,9 @@
           },
           {
             "objectName": "TopDownDungeon16x16"
+          },
+          {
+            "objectName": "NewExternalTileMap"
           }
         ]
       },
@@ -7327,7 +7387,44 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
     },
     {
       "b": 209,
@@ -7522,7 +7619,44 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
