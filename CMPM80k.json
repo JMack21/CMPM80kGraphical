@@ -1190,6 +1190,38 @@
         "name": "assets\\redo_dungeon2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Coffee_Table-1.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Coffee_Table-1.png.png\",\"extension\":\".png\"}",
+        "name": "assets\\Coffee_Table-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Coffee_Table-1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Coffee_Table-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Coffee_Table-1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Coffee_Table-1.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Coffee_Table-1.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Coffee_Table-1.png3",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
