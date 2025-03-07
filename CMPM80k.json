@@ -1222,6 +1222,78 @@
         "name": "assets\\Coffee_Table-1.png3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/stove.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove.png\"}",
+        "name": "stove",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove2.png\"}",
+        "name": "stove2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "stove3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove4.png\"}",
+        "name": "stove4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove5.png\"}",
+        "name": "stove5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove6.png\"}",
+        "name": "stove6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/stove7.png\"}",
+        "name": "stove7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stove2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stove1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6234,6 +6306,103 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "stove",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6241,6 +6410,9 @@
         "children": [
           {
             "objectName": "Map"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
