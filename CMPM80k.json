@@ -3920,6 +3920,11 @@
       "value": 1
     },
     {
+      "name": "killCount",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "globalHealth",
       "type": "number",
       "value": 5
@@ -6953,17 +6958,6 @@
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
-                "MC",
-                "killCount",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
                 "Evil",
                 "isBroken",
                 "=",
@@ -6979,6 +6973,16 @@
                 "Animation",
                 "=",
                 "\"11\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "+",
+                "1"
               ]
             },
             {
@@ -7206,10 +7210,9 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "MC",
                 "killCount",
                 "+",
                 "1"
@@ -7450,6 +7453,14 @@
                 "=",
                 "\"1\""
               ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "CoffeeTable"
+              ]
             }
           ]
         },
@@ -7524,6 +7535,44 @@
               "parameters": [
                 "",
                 "\"Garage\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Death"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "MC",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\""
               ]
             }
           ]
@@ -7679,7 +7728,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5079575118131752,
+        "zoomFactor": 1.0536458333333358,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7743,7 +7792,7 @@
           "name": "switch",
           "persistentUuid": "7a858f18-a846-49f8-beee-c2f317735e18",
           "width": 10,
-          "x": 1250,
+          "x": 1200,
           "y": 311,
           "zOrder": 2,
           "numberProperties": [],
@@ -9168,7 +9217,7 @@
               "parameters": [
                 "MC",
                 "switch",
-                "30",
+                "50",
                 ""
               ]
             },
@@ -9302,7 +9351,7 @@
               "parameters": [
                 "MC",
                 "door",
-                "30",
+                "80",
                 ""
               ]
             },
@@ -9483,7 +9532,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5610952083582075,
+        "zoomFactor": 0.9538618542089523,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9581,7 +9630,7 @@
           "name": "switch",
           "persistentUuid": "c766b10a-4539-46f9-a345-45fa267d6384",
           "width": 10,
-          "x": 1240,
+          "x": 1180,
           "y": 328,
           "zOrder": 6,
           "numberProperties": [],
@@ -9662,7 +9711,13 @@
           "name": "Lawnmower",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "isBroke",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -11112,7 +11167,7 @@
               "parameters": [
                 "MC",
                 "switch",
-                "30",
+                "50",
                 ""
               ]
             },
@@ -11190,6 +11245,36 @@
                 "=",
                 "\"1\""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Map",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Animation",
+                "=",
+                "\"1\" + Lawnmower.isBroke"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Lawnmower"
+              ]
             }
           ]
         },
@@ -11235,8 +11320,18 @@
               "parameters": [
                 "MC",
                 "door",
-                "30",
+                "80",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "=",
+                "0"
               ]
             },
             {
@@ -11253,7 +11348,70 @@
               },
               "parameters": [
                 "",
-                "\"LivingRoom\""
+                "\"Game Win - Good\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"j\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "door",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Game Win - Bad\""
               ]
             }
           ]
@@ -11293,6 +11451,28 @@
                 "\"chargeTimer\"",
                 ">=",
                 "3.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
               ]
             },
             {
@@ -11341,6 +11521,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11369,6 +11571,28 @@
                 "\"chargeTimer\"",
                 "<=",
                 "2.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
               ]
             }
           ],
@@ -11421,6 +11645,28 @@
                 "Lawnmower",
                 "Health",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
               ]
             }
           ],
@@ -11492,6 +11738,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11547,6 +11815,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11580,6 +11870,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11637,6 +11949,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11680,6 +12014,28 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -11689,63 +12045,6 @@
               },
               "parameters": [
                 "Lawnmower"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Lawnmower",
-                "\"rushdown\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Lawnmower",
-                "\"rushdown\"",
-                "<",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "RotateTowardAngle"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-10, 10)",
-                "0",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Lawnmower.Angle() + 90",
-                "750",
-                "1"
               ]
             }
           ]
@@ -11806,6 +12105,144 @@
               "parameters": [
                 "Lawnmower",
                 "\"chargeTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-10, 10)",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.Angle() + 90",
+                "750",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Death"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "MC",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\""
               ]
             }
           ]
@@ -12163,7 +12600,58 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "FloatingOutButtonDarkBlue",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "globalHealth",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Bedroom\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -12582,7 +13070,528 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "FloatingOutButtonDarkBlue",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "globalHealth",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Bedroom\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Game_32Start",
+      "name": "Game Start",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.68359375,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 727,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "cd97ca9b-9bf7-4ce9-8824-b42c8ca900b1",
+          "width": 1137,
+          "x": -43,
+          "y": -8,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText",
+          "persistentUuid": "05923aea-095b-4e60-9dc2-a5d7019535ab",
+          "width": 0,
+          "x": 199,
+          "y": 41,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 39.86440677966102,
+          "height": 162.77966101694918,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FloatingOutButtonDarkBlue",
+          "persistentUuid": "5e99c379-2a63-4240-9dc1-8c165d72eb5b",
+          "width": 490,
+          "x": 268,
+          "y": 479,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 247,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewText2",
+          "persistentUuid": "d0258fdf-7d7e-4190-8fb4-829cc2b6997a",
+          "width": 632,
+          "x": 199,
+          "y": 334,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Knight Light",
+          "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 130,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Knight Light",
+            "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 130,
+            "color": "248;231;28"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "FloatingOutButtonDarkBlue",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Start",
+              "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+              "textAlignment": "center",
+              "characterSize": 100,
+              "color": {
+                "b": 28,
+                "g": 231,
+                "r": 248
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Start",
+                "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 100,
+                "color": "248;231;28"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "WASD to move\nJ to attack/interact\nShift to dash",
+          "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "WASD to move\nJ to attack/interact\nShift to dash",
+            "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 35,
+            "color": "248;231;28"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "NewText2"
+          },
+          {
+            "objectName": "FloatingOutButtonDarkBlue"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "FloatingOutButtonDarkBlue",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "globalHealth",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Bedroom\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -13001,7 +14010,58 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "FloatingOutButtonDarkBlue",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "globalHealth",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Bedroom\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
