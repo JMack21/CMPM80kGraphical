@@ -16,19 +16,47 @@
     "pixelsRounding": true,
     "projectUuid": "d90180d4-e90f-4874-818d-e751b366c20f",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "scaleOuter",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "CMPM80k",
     "description": "",
     "author": "",
-    "windowWidth": 1920,
-    "windowHeight": 1080,
+    "windowWidth": 1024,
+    "windowHeight": 704,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -1372,6 +1400,86 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\coffeetable_normal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Broken_Coffee_Table-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Broken_Coffee_Table-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/redo_house2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\redo_house2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/redo_house3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\redo_house3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/redo_house1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\redo_house1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lawnmower1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lawnmower1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lawnmower2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lawnmower2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lawnmower_normal_broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lawnmower_normal_broken.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lawnmower_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lawnmower_normal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walls.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walls",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walls2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walls2",
         "smoothed": false,
         "userAdded": false
       }
@@ -3671,6 +3779,48 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Walls",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Walls",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Walls2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3690,6 +3840,9 @@
       },
       {
         "objectName": "sword"
+      },
+      {
+        "objectName": "Walls"
       }
     ]
   },
@@ -3727,7 +3880,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2856211236782522,
+        "zoomFactor": 0.7562477198107392,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3765,8 +3918,8 @@
           "name": "MC",
           "persistentUuid": "2a98d55e-e631-423b-91cb-94394a696f48",
           "width": 40,
-          "x": 1009,
-          "y": 658,
+          "x": 695,
+          "y": 768,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3798,8 +3951,8 @@
           "name": "switch",
           "persistentUuid": "1698c735-85cd-414f-8157-bcee730660fc",
           "width": 10,
-          "x": 1081,
-          "y": 328,
+          "x": 1250,
+          "y": 330,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3814,8 +3967,8 @@
           "name": "door",
           "persistentUuid": "601abdae-6fc1-49e5-8f2d-b83ff5132943",
           "width": 0,
-          "x": 1017,
-          "y": 307,
+          "x": 1337,
+          "y": 308,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3850,6 +4003,72 @@
           "x": 1080,
           "y": 438,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "2e34ac86-5333-46fb-b131-a4a960f5d5cd",
+          "width": 891,
+          "x": 601,
+          "y": 846,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "ba15aa60-210c-46db-adfd-742451b36686",
+          "width": 891,
+          "x": 602,
+          "y": 300,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "9d0f2d79-04b7-4404-a8e9-bf541f9fd7eb",
+          "width": 64,
+          "x": 606,
+          "y": 301,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "bf989bb0-a62d-4adf-bbb2-3f83601afb5c",
+          "width": 64,
+          "x": 1437,
+          "y": 295,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4392,7 +4611,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\house1.png",
+                      "image": "assets\\redo_house2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4476,6 +4695,8 @@
               "PercentDamageReduction": 0
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -4486,10 +4707,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 99,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -4707,7 +4926,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\tv_normal_broken.png",
+                      "image": "assets\\Broken_Coffee_Table-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4755,7 +4974,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\tv_normal_broken.png",
+                      "image": "assets\\Broken_Coffee_Table-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4862,7 +5081,7 @@
               },
               "parameters": [
                 "",
-                "1.8",
+                "1",
                 "",
                 ""
               ]
@@ -4992,6 +5211,16 @@
                 "PixelHeartBar",
                 "=",
                 "MC.Health::Health()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Walls",
                 ""
               ]
             }
@@ -5483,6 +5712,17 @@
                 "\"attackTimer\"",
                 ">=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
               ]
             },
             {
@@ -6995,7 +7235,7 @@
               "parameters": [
                 "MC",
                 "switch",
-                "30",
+                "50",
                 ""
               ]
             },
@@ -7189,7 +7429,7 @@
               "parameters": [
                 "MC",
                 "door",
-                "30",
+                "80",
                 ""
               ]
             },
@@ -7373,7 +7613,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9227465364204586,
+        "zoomFactor": 0.5079575118131752,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7420,8 +7660,8 @@
           "name": "door",
           "persistentUuid": "ac2064bb-7059-4ac7-9b46-bd253fd4a127",
           "width": 0,
-          "x": 952,
-          "y": 286,
+          "x": 1273,
+          "y": 288,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7437,8 +7677,8 @@
           "name": "switch",
           "persistentUuid": "7a858f18-a846-49f8-beee-c2f317735e18",
           "width": 10,
-          "x": 1033,
-          "y": 310,
+          "x": 1250,
+          "y": 311,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7474,6 +7714,72 @@
           "x": 575,
           "y": 340,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "1b1b46ac-0bc1-48a2-a942-8ba8d23273e1",
+          "width": 891,
+          "x": 539,
+          "y": 281,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "a5cec666-b092-45ef-aedb-2c2f162002c1",
+          "width": 891,
+          "x": 532,
+          "y": 850,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "0ac27bc9-5c81-4daf-b4b2-7a1639c8f202",
+          "width": 64,
+          "x": 532,
+          "y": 275,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "62cbf81c-ba1e-41b8-a009-aa2e9faa5216",
+          "width": 64,
+          "x": 1360,
+          "y": 279,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7548,7 +7854,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\house4.png",
+                      "image": "assets\\redo_house1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7792,7 +8098,7 @@
               },
               "parameters": [
                 "",
-                "1.8",
+                "1",
                 "",
                 ""
               ]
@@ -7873,6 +8179,16 @@
                 "PixelHeartBar",
                 "=",
                 "MC.Health::Health()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Walls",
                 ""
               ]
             }
@@ -8299,6 +8615,17 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -9090,7 +9417,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7077142870146649,
+        "zoomFactor": 0.5610952083582075,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9138,8 +9465,8 @@
           "name": "door",
           "persistentUuid": "7863dfe6-869a-4385-a52d-3ac5e9b19b70",
           "width": 0,
-          "x": 1008,
-          "y": 308,
+          "x": 1272,
+          "y": 301,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -9177,6 +9504,89 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "switch",
+          "persistentUuid": "c766b10a-4539-46f9-a345-45fa267d6384",
+          "width": 10,
+          "x": 1240,
+          "y": 328,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "a47ffd24-527a-41b1-b17a-c9805ab63ea4",
+          "width": 64,
+          "x": 1367,
+          "y": 292,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "3d988739-5e3b-42c1-836d-45cf55f8ceaf",
+          "width": 64,
+          "x": 537,
+          "y": 292,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "ab4c552b-561c-44de-b60f-671a7a9a52b1",
+          "width": 891,
+          "x": 540,
+          "y": 294,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "b3d4de88-dff9-4131-92ac-15478f29032e",
+          "width": 891,
+          "x": 545,
+          "y": 845,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9188,20 +9598,49 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 5,
+              "CurrentHealth": 0,
+              "MaxHealth": 5,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            }
+          ],
           "animations": [
             {
-              "name": "left",
+              "name": "00",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.04,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\LawnmowerLeft.png",
+                      "image": "assets\\lawnmower1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9217,20 +9656,200 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 8
+                            "x": 15,
+                            "y": 6
                           },
                           {
-                            "x": 56,
-                            "y": 8
+                            "x": 49,
+                            "y": 6
                           },
                           {
-                            "x": 56,
-                            "y": 61
+                            "x": 49,
+                            "y": 51
                           },
                           {
-                            "x": 3,
-                            "y": 61
+                            "x": 15,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\lawnmower2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 51
+                          },
+                          {
+                            "x": 15,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "01",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\lawnmower_normal_broken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 51
+                          },
+                          {
+                            "x": 15,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "10",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\lawnmower_normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 51
+                          },
+                          {
+                            "x": 15,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "11",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\lawnmower_normal_broken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 6
+                          },
+                          {
+                            "x": 49,
+                            "y": 51
+                          },
+                          {
+                            "x": 15,
+                            "y": 51
                           }
                         ]
                       ]
@@ -9309,7 +9928,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\house3.png",
+                      "image": "assets\\redo_house3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9393,7 +10012,7 @@
               },
               "parameters": [
                 "",
-                "1.8",
+                "1",
                 "",
                 ""
               ]
@@ -9494,6 +10113,26 @@
                 "PixelHeartBar",
                 "=",
                 "MC.Health::Health()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Walls",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Walls",
                 ""
               ]
             }
@@ -9885,66 +10524,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "MC",
-                "\"attackTimer\"",
-                "<",
-                "0.5"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "direction",
-                "=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreAutour"
-              },
-              "parameters": [
-                "sword",
-                "MC",
-                "0",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "sword",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "sword",
-                "=",
-                "MC.ZOrder() + 1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
@@ -9980,6 +10559,17 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -10694,7 +11284,7 @@
               },
               "parameters": [
                 "Lawnmower",
-                "Lawnmower.Angle()",
+                "Lawnmower.Angle() + 90",
                 "750",
                 "1"
               ]
@@ -10719,168 +11309,13 @@
           "actions": [
             {
               "type": {
-                "value": "RotateTowardPosition"
+                "value": "RotateTowardAngle"
               },
               "parameters": [
                 "Lawnmower",
-                "MC.X()",
-                "MC.Y()",
+                "Lawnmower.AngleToObject(MC) - 90",
                 "0",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Angle"
-                  },
-                  "parameters": [
-                    "Lawnmower",
-                    "<",
-                    "-270"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Angle"
-                  },
-                  "parameters": [
-                    "Lawnmower",
-                    ">=",
-                    "270"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        ">=",
-                        "-90"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        "<",
-                        "90"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipY"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        ">=",
-                        "90"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        "<",
-                        "270"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        "<",
-                        "-90"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Angle"
-                      },
-                      "parameters": [
-                        "Lawnmower",
-                        ">=",
-                        "-270"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipY"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Flippable",
-                "yes"
+                "0"
               ]
             }
           ]
@@ -10910,6 +11345,17 @@
                 ">=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Health",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -10933,6 +11379,367 @@
               "parameters": [
                 "MC",
                 "\"iFrames\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Lawnmower Collision"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Lawnmower",
+                "sword",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Health",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"chargeTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"chargeTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Lawnmower",
+                "-Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-90, 90)",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.Angle() + 90",
+                "750",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Lawnmower"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "1.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Lawnmower"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-10, 10)",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.Angle() + 90",
+                "750",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Health",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Lawnmower"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Animation",
+                "=",
+                "\"01\""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"chargeTimer\""
               ]
             }
           ]
