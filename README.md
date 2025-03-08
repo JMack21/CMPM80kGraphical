@@ -2,8 +2,11 @@
 #### Team Members:
 
 Jason Mack
+
 Jose Baeza
+
 Preston Nguyen
+
 
 #### Outside Resources Used:
 
