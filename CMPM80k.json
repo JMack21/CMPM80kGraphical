@@ -1548,6 +1548,86 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
           "name": "CarterOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Couch-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Couch-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Couch-1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Couch-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Couch-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Couch-1.png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BoxSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BoxSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BoxSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BoxSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BoxSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BoxSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "1",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4426,7 +4506,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8081094648115877,
+        "zoomFactor": 0.7077142870146748,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4481,8 +4561,8 @@
           "name": "Evil",
           "persistentUuid": "8f5a8cb2-92f5-4ada-bd68-7001ab6440ca",
           "width": 52,
-          "x": 1009,
-          "y": 436,
+          "x": 1152,
+          "y": 539,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4539,15 +4619,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "CoffeeTable",
           "persistentUuid": "a013894e-4c39-405e-a951-b4d4a7ab0d31",
-          "width": 0,
-          "x": 1080,
-          "y": 438,
+          "width": 64,
+          "x": 1051,
+          "y": 447,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -4615,6 +4696,23 @@
           "x": 1437,
           "y": 295,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 62,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Couch",
+          "persistentUuid": "d4307a9c-5f6e-4665-921d-f7c95741dd55",
+          "width": 100,
+          "x": 1215,
+          "y": 462,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5559,6 +5657,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Couch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\assets_Couch-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 53,
+                            "y": 0
+                          },
+                          {
+                            "x": 53,
+                            "y": 33
+                          },
+                          {
+                            "x": 0,
+                            "y": 33
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5581,6 +5739,9 @@
           },
           {
             "objectName": "CoffeeTable"
+          },
+          {
+            "objectName": "Couch"
           }
         ]
       },
@@ -5765,8 +5926,38 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
+                "Evil",
+                "Couch",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "CoffeeTable",
+                "Couch",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
                 "MC",
                 "Walls",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Couch",
                 ""
               ]
             }
@@ -7413,6 +7604,17 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Evil",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -7659,6 +7861,17 @@
                 "isLight",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "CoffeeTable",
+                "Health",
+                ""
               ]
             },
             {
@@ -8498,7 +8711,7 @@
           "width": 891,
           "x": 532,
           "y": 850,
-          "zOrder": 6,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8515,7 +8728,7 @@
           "width": 64,
           "x": 532,
           "y": 275,
-          "zOrder": 7,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8532,7 +8745,7 @@
           "width": 64,
           "x": 1360,
           "y": 279,
-          "zOrder": 7,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10170,7 +10383,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8081094648115791,
+        "zoomFactor": 1.2856211236782427,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10287,7 +10500,7 @@
           "width": 64,
           "x": 1367,
           "y": 292,
-          "zOrder": 7,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10304,7 +10517,7 @@
           "width": 64,
           "x": 537,
           "y": 292,
-          "zOrder": 7,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10320,7 +10533,7 @@
           "width": 891,
           "x": 540,
           "y": 294,
-          "zOrder": 6,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10336,7 +10549,23 @@
           "width": 891,
           "x": 545,
           "y": 845,
-          "zOrder": 6,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Boxes",
+          "persistentUuid": "2b581ca1-4219-4e66-919f-de7b17519c33",
+          "width": 0,
+          "x": 1138,
+          "y": 353,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10726,6 +10955,194 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Boxes",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 3,
+              "CurrentHealth": 0,
+              "MaxHealth": 3,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BoxSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10736,6 +11153,9 @@
           },
           {
             "objectName": "Map"
+          },
+          {
+            "objectName": "Boxes"
           }
         ]
       },
@@ -10857,6 +11277,15 @@
                 "globalHealth",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Boxes",
+                "\"iFrames\""
+              ]
             }
           ]
         },
@@ -10877,11 +11306,42 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Boxes",
+                "Animation",
+                "=",
+                "ToString(Boxes.Health::Health())"
+              ]
+            },
+            {
+              "type": {
                 "value": "SeparateFromObjects"
               },
               "parameters": [
                 "MC",
                 "Walls",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Boxes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Boxes",
                 ""
               ]
             },
@@ -12908,6 +13368,15 @@
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Game Win - Bad\""
+              ]
             }
           ]
         },
@@ -12986,6 +13455,96 @@
                 "Lawnmower.Angle() + 90",
                 "750",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Boxes",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Boxes",
+                "\"iFrames\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Boxes",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Boxes",
+                "\"iFrames\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Boxes",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Boxes",
+                "Health"
               ]
             }
           ]
