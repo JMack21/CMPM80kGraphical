@@ -1636,6 +1636,110 @@
         "name": "3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/redo_house4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\redo_house4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stove_normal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/stove_normal_broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\stove_normal_broken.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_stove10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\stove10",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4497,6 +4601,1810 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "Bedroom",
+      "name": "Bedroom",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6197916666666687,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "MC",
+          "persistentUuid": "0c8a2a2b-9532-41e0-a7d2-33cea52e3b92",
+          "width": 40,
+          "x": 665,
+          "y": 375,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "PixelHeartBar",
+          "persistentUuid": "c9e248ce-e31f-43ba-b330-aefd56c455c1",
+          "width": 0,
+          "x": 80,
+          "y": 50,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "door",
+          "persistentUuid": "ac2064bb-7059-4ac7-9b46-bd253fd4a127",
+          "width": 0,
+          "x": 1273,
+          "y": 288,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "switch",
+          "persistentUuid": "7a858f18-a846-49f8-beee-c2f317735e18",
+          "width": 10,
+          "x": 1174,
+          "y": 311,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Map",
+          "persistentUuid": "1d440c06-4070-4855-a358-4605c8a7d020",
+          "width": 1024,
+          "x": 466,
+          "y": 226,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bed",
+          "persistentUuid": "6cef0958-82e3-436e-ad86-2cc560b2aa96",
+          "width": 128,
+          "x": 575,
+          "y": 340,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "1b1b46ac-0bc1-48a2-a942-8ba8d23273e1",
+          "width": 891,
+          "x": 539,
+          "y": 281,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "a5cec666-b092-45ef-aedb-2c2f162002c1",
+          "width": 891,
+          "x": 532,
+          "y": 850,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "0ac27bc9-5c81-4daf-b4b2-7a1639c8f202",
+          "width": 64,
+          "x": 532,
+          "y": 275,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 618,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Walls",
+          "persistentUuid": "62cbf81c-ba1e-41b8-a009-aa2e9faa5216",
+          "width": 64,
+          "x": 1360,
+          "y": 279,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Map",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\redo_dungeon1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 176
+                          },
+                          {
+                            "x": 0,
+                            "y": 176
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\redo_house1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 0
+                          },
+                          {
+                            "x": 256,
+                            "y": 176
+                          },
+                          {
+                            "x": 0,
+                            "y": 176
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "stove",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bed",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Bed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bed-1.png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 10
+                          },
+                          {
+                            "x": 40,
+                            "y": 10
+                          },
+                          {
+                            "x": 40,
+                            "y": 53
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Map"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Bed"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Start"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Map",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\firstNes.wav",
+                "yes",
+                "20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"DashTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "light_on",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"iFrames\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "PixelHeartBar",
+                "=",
+                "MC.Health::Health()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MC",
+                "Walls",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"w\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walking Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walking Animations"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "MC",
+                "Animation",
+                "=",
+                "MC.movementState + MC.direction + MC.light_on"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "MC",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "MC",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Step.wav",
+                "",
+                "20",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Swing Sword"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"j\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "switch",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\SwordSlash.wav",
+                "",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "sword",
+                "MC.X()",
+                "MC.Y()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "sword",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                "<",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "sword",
+                "MC",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "-45"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "MC.ZOrder() - 1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                "<",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "sword",
+                "MC",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "-90"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "MC.ZOrder() - 1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                "<",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "sword",
+                "MC",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "135"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "MC.ZOrder() + 1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                "<",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "sword",
+                "MC",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "MC.ZOrder() + 1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dash"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"DashTimer\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Roll.wav",
+                "",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "MC",
+                "-MC.direction * 90 + 270",
+                "1500",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"DashTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"DashTimer\"",
+                ">=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\DashBeep.wav",
+                "",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Switch and Door",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "switch"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"j\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "visible",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "switch",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "switch",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\LightSwitch.wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "light_on",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "door",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Map",
+                "Animation",
+                "=",
+                "\"1\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Enter Door"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"j\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MC",
+                "door",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "globalHealth",
+                "=",
+                "MC.Health::Health()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"LivingRoom\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "LivingRoom",
       "name": "LivingRoom",
       "r": 209,
@@ -4514,7 +6422,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7077142870146748,
+        "zoomFactor": 0.5800155239904939,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8395,7 +10303,7 @@
               },
               "parameters": [
                 "",
-                "\"Garage\""
+                "\"Kitchen\""
               ]
             }
           ]
@@ -8572,8 +10480,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Bedroom",
-      "name": "Bedroom",
+      "mangledName": "Kitchen",
+      "name": "Kitchen",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -8589,7 +10497,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6197916666666687,
+        "zoomFactor": 0.7551048437486086,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8599,14 +10507,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 40,
+          "height": 704,
+          "keepRatio": true,
           "layer": "",
-          "name": "MC",
-          "persistentUuid": "0c8a2a2b-9532-41e0-a7d2-33cea52e3b92",
-          "width": 40,
-          "x": 665,
-          "y": 375,
-          "zOrder": 3,
+          "name": "Map",
+          "persistentUuid": "864989e7-53ea-44f6-92cf-647054a7361c",
+          "width": 1024,
+          "x": 412,
+          "y": 253,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8618,78 +10527,11 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "PixelHeartBar",
-          "persistentUuid": "c9e248ce-e31f-43ba-b330-aefd56c455c1",
+          "persistentUuid": "83da3319-a422-4598-ae63-97f7666e6f2e",
           "width": 0,
           "x": 80,
           "y": 50,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "door",
-          "persistentUuid": "ac2064bb-7059-4ac7-9b46-bd253fd4a127",
-          "width": 0,
-          "x": 1273,
-          "y": 288,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 20,
-          "keepRatio": true,
-          "layer": "",
-          "name": "switch",
-          "persistentUuid": "7a858f18-a846-49f8-beee-c2f317735e18",
-          "width": 10,
-          "x": 1174,
-          "y": 311,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 704,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Map",
-          "persistentUuid": "1d440c06-4070-4855-a358-4605c8a7d020",
-          "width": 1024,
-          "x": 466,
-          "y": 226,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bed",
-          "persistentUuid": "6cef0958-82e3-436e-ad86-2cc560b2aa96",
-          "width": 128,
-          "x": 575,
-          "y": 340,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8701,10 +10543,10 @@
           "height": 64,
           "layer": "",
           "name": "Walls",
-          "persistentUuid": "1b1b46ac-0bc1-48a2-a942-8ba8d23273e1",
+          "persistentUuid": "73bdddf6-f271-47a0-a914-8319caf98ed2",
           "width": 891,
-          "x": 539,
-          "y": 281,
+          "x": 463,
+          "y": 850,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -8717,11 +10559,11 @@
           "height": 64,
           "layer": "",
           "name": "Walls",
-          "persistentUuid": "a5cec666-b092-45ef-aedb-2c2f162002c1",
+          "persistentUuid": "2db01394-9a4c-4381-a426-9f5084e98725",
           "width": 891,
-          "x": 532,
-          "y": 850,
-          "zOrder": -1,
+          "x": 464,
+          "y": 304,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8734,11 +10576,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "Walls",
-          "persistentUuid": "0ac27bc9-5c81-4daf-b4b2-7a1639c8f202",
+          "persistentUuid": "064e0f40-087c-432f-a130-8154d9d52d64",
           "width": 64,
-          "x": 532,
-          "y": 275,
-          "zOrder": -1,
+          "x": 468,
+          "y": 305,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8751,11 +10593,78 @@
           "keepRatio": true,
           "layer": "",
           "name": "Walls",
-          "persistentUuid": "62cbf81c-ba1e-41b8-a009-aa2e9faa5216",
+          "persistentUuid": "5e18d6cb-3c4b-40aa-a742-feda59af7747",
           "width": 64,
-          "x": 1360,
-          "y": 279,
-          "zOrder": -1,
+          "x": 1299,
+          "y": 299,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "switch",
+          "persistentUuid": "5cb63cfe-7598-4fae-add1-3f78dc39be98",
+          "width": 10,
+          "x": 1077,
+          "y": 336,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "door",
+          "persistentUuid": "351eee1e-cd78-48e5-bbc1-de6bc5e0a66e",
+          "width": 0,
+          "x": 1210,
+          "y": 315,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MC",
+          "persistentUuid": "be586cfb-1b80-4bbe-94f4-6de9e3e89ba9",
+          "width": 40,
+          "x": 655,
+          "y": 736,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Oven",
+          "persistentUuid": "3522df59-add0-477a-94bb-fe6837be66cf",
+          "width": 64,
+          "x": 992,
+          "y": 369,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8830,7 +10739,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\redo_house1.png",
+                      "image": "assets\\redo_house4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8873,21 +10782,60 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Oven",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "isBroken",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "burstCount",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 2,
+              "CurrentHealth": 0,
+              "MaxHealth": 2,
+              "DamageCooldown": 0,
+              "AllowOverHealing": false,
+              "IsHealthJustDamaged": false,
+              "DamageToBeApplied": 0,
+              "HitAtLeastOnce": false,
+              "ChanceToDodge": 0,
+              "IsJustDodged": false,
+              "HealToBeApplied": 0,
+              "HealthRegenRate": 0,
+              "HealthRegenDelay": 0,
+              "IsJustHealed": false,
+              "CurrentShieldPoints": 2.0247e-320,
+              "MaxShieldPoints": 0,
+              "ShieldDuration": 5,
+              "ShieldRegenRate": 0,
+              "BlockExcessDamage": false,
+              "ShieldRegenDelay": 0,
+              "IsShieldJustDamaged": false,
+              "ShieldDamageTaken": 2.0247e-320,
+              "FlatDamageReduction": 0,
+              "PercentDamageReduction": 0
+            }
+          ],
           "animations": [
             {
-              "name": "stove",
+              "name": "00",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8964,21 +10912,9 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Bed",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
+            },
             {
-              "name": "Bed",
+              "name": "10",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -8987,7 +10923,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Bed-1.png.png",
+                      "image": "assets\\stove_normal.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9003,20 +10939,268 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 10
+                            "x": 5,
+                            "y": 1
                           },
                           {
-                            "x": 40,
-                            "y": 10
+                            "x": 27,
+                            "y": 1
                           },
                           {
-                            "x": 40,
-                            "y": 53
+                            "x": 27,
+                            "y": 32
                           },
                           {
-                            "x": 16,
-                            "y": 53
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "01",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove_normal_broken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "11",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove_normal_broken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 1
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 5,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Flames",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "isBroken",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "AdvancedProjectile",
+              "type": "AdvancedProjectile::AdvancedProjectile",
+              "MaxLifetime": 6,
+              "MaxDistanceFromStartingPosition": 0,
+              "MaxSpeed": 0,
+              "MinSpeed": 0,
+              "Acceleration": 0,
+              "StartingSpeed": 125,
+              "DeleteWhenLifetimeExceeded": true,
+              "DeleteWhenDistanceExceeded": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets\\stove1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\stove10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 0,
+                            "y": 15
                           }
                         ]
                       ]
@@ -9035,10 +11219,10 @@
             "objectName": "Map"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Oven"
           },
           {
-            "objectName": "Bed"
+            "objectName": "Flames"
           }
         ]
       },
@@ -9068,6 +11252,17 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "MC",
+                "Health",
+                "globalHealth",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ZoomCamera"
@@ -9128,6 +11323,15 @@
                 "value": "ResetObjectTimer"
               },
               "parameters": [
+                "Oven",
+                "\"BurstTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
                 "MC",
                 "\"iFrames\""
               ]
@@ -9180,6 +11384,214 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walking Controls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"w\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"s\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "Conjurer1",
+                "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                ">=",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "movementState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "3"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9250,214 +11662,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "Conjurer1",
-                "\"w\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "MC",
-                "\"attackTimer\"",
-                ">=",
-                "0.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "movementState",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "direction",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Walking Controls"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "Conjurer1",
-                "\"a\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "MC",
-                "\"attackTimer\"",
-                ">=",
-                "0.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "movementState",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "direction",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "Conjurer1",
-                "\"d\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "MC",
-                "\"attackTimer\"",
-                ">=",
-                "0.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "movementState",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "direction",
-                "=",
-                "3"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "Conjurer1",
-                "\"s\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "MC",
-                "\"attackTimer\"",
-                ">=",
-                "0.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "movementState",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "MC",
-                "direction",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -9485,6 +11689,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walking Sounds"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9540,6 +11756,66 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"attackTimer\"",
+                "<",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "direction",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "sword",
+                "MC",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "sword",
+                "=",
+                "MC.ZOrder() + 1"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -9588,12 +11864,6 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
                 "value": "NumberObjectVariable"
               },
               "parameters": [
@@ -9602,6 +11872,12 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -10027,6 +12303,555 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Knockback"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"knockbackTimer\"",
+                "<",
+                "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "MC",
+                "MC.kbAngle",
+                "-50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MC",
+                "TopDownMovement",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"knockbackTimer\"",
+                ">=",
+                "0.75"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "MC"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"knockbackTimer\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MC",
+                "TopDownMovement",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Oven"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Oven",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Oven",
+                "\"BurstTimer\"",
+                ">",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Oven",
+                "burstCount",
+                "<",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Flames",
+                "Oven.X()",
+                "Oven.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Flames",
+                "Oven.AngleToObject(MC) + RandomFloatInRange(-25, 25)",
+                "125",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Oven",
+                "\"BurstTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Oven",
+                "burstCount",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Oven",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Oven",
+                "burstCount",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Oven",
+                "\"BurstTimer\"",
+                ">",
+                "1.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Oven",
+                "\"BurstTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Oven",
+                "burstCount",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Projectile Collision"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MC",
+                "Flames",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"iFrames\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "MC",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"iFrames\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "MC",
+                "kbAngle",
+                "=",
+                "MC.AngleToObject(Flames)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "MC",
+                "\"knockbackTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Flames",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sword Collision/Enemy Health"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Oven",
+                "sword",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Oven",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Oven",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Oven",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Oven",
+                "isBroken",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Oven",
+                "Animation",
+                "=",
+                "\"11\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "killCount",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -10047,7 +12872,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "switch"
+          "comment": "switch test"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10126,6 +12951,17 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Oven",
+                "Animation",
+                "=",
+                "\"1\" + Oven.isBroken"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
@@ -10144,6 +12980,24 @@
                 "isLight",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Flames"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Flames",
+                ""
               ]
             },
             {
@@ -10240,7 +13094,45 @@
               },
               "parameters": [
                 "",
-                "\"LivingRoom\""
+                "\"Garage\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player Death"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "MC",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\""
               ]
             }
           ]
@@ -10331,6 +13223,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "AdvancedProjectile",
+          "type": "AdvancedProjectile::AdvancedProjectile"
+        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
