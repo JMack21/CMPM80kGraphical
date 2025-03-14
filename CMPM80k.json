@@ -17354,8 +17354,9 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
           "keepRatio": true,
           "layer": "",
           "name": "NewText",
