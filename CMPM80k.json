@@ -1876,6 +1876,38 @@
         "name": "assets\\Table0",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../CMPM80kGraphical - Copy/test_kid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\CMPM80kGraphical - Copy\\test_kid.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../CMPM80kGraphical - Copy/test_parent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\CMPM80kGraphical - Copy\\test_parent.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_kid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test_kid.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/test_parent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\test_parent.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -18561,8 +18593,8 @@
           "name": "NewText",
           "persistentUuid": "05923aea-095b-4e60-9dc2-a5d7019535ab",
           "width": 0,
-          "x": 265,
-          "y": 37,
+          "x": 305,
+          "y": 50,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -18601,6 +18633,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "crying_kid",
+          "persistentUuid": "94ec2a09-fe24-4fd6-ad4e-f0896fa2fd79",
+          "width": 320,
+          "x": -22,
+          "y": 380,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 800,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "0e8324d2-6bbd-4671-8acc-4b6f8c572c8b",
+          "width": 800,
+          "x": 240,
+          "y": -193,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -18629,7 +18695,7 @@
           "string": "You did it!",
           "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
           "textAlignment": "center",
-          "characterSize": 130,
+          "characterSize": 100,
           "color": {
             "b": 28,
             "g": 231,
@@ -18653,7 +18719,7 @@
             "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 130,
+            "characterSize": 100,
             "color": "248;231;28"
           }
         },
@@ -18755,7 +18821,7 @@
           "string": "You overcame your fear of the dark...\n\nbut the furniture was destroyed!\n\nMom and Dad grounded you for a week.",
           "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
           "textAlignment": "center",
-          "characterSize": 35,
+          "characterSize": 30,
           "color": {
             "b": 28,
             "g": 231,
@@ -18779,9 +18845,41 @@
             "font": "c96edc91057427c050d27f12acd8aac861958ce147509c048a59fcd48c8910b8_Charm-Bold.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
-            "characterSize": 35,
+            "characterSize": 30,
             "color": "248;231;28"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "crying_kid",
+          "rightMargin": 0,
+          "texture": "assets\\test_kid.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "texture": "assets\\test_parent.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -18798,6 +18896,12 @@
           },
           {
             "objectName": "FloatingOutButtonDarkBlue"
+          },
+          {
+            "objectName": "crying_kid"
+          },
+          {
+            "objectName": "NewPanelSprite"
           }
         ]
       },
