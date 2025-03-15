@@ -1876,6 +1876,126 @@
         "name": "assets\\Table0",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Zap.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Zap.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Hit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Hit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/firstNes.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\firstNes.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/songforvideo.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\songforvideo.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Step.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Step.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Roll.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Roll.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/DashBeep.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\DashBeep.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/SwordSlash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\SwordSlash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/LightSwitch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\LightSwitch.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Flame.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Flame.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/Lawnmower.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\Lawnmower.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Audio/LawnmowerCharge.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Audio\\LawnmowerCharge.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4754,7 +4874,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6197916666666687,
+        "zoomFactor": 0.5079575118131753,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7865,7 +7985,7 @@
               },
               "parameters": [
                 "",
-                "assets\\firstNes.wav",
+                "assets\\Audio\\songforvideo.wav",
                 "yes",
                 "20",
                 ""
@@ -8390,7 +8510,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Step.wav",
+                "assets\\Audio\\Step.wav",
                 "",
                 "20",
                 ""
@@ -8530,7 +8650,7 @@
               },
               "parameters": [
                 "",
-                "assets\\SwordSlash.wav",
+                "assets\\Audio\\SwordSlash.wav",
                 "",
                 "30",
                 ""
@@ -8881,7 +9001,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Roll.wav",
+                "assets\\Audio\\Roll.wav",
                 "",
                 "30",
                 ""
@@ -8937,9 +9057,9 @@
               },
               "parameters": [
                 "",
-                "assets\\DashBeep.wav",
+                "assets\\Audio\\DashBeep.wav",
                 "",
-                "30",
+                "20",
                 ""
               ]
             }
@@ -9321,6 +9441,18 @@
                 "0",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Zap.wav",
+                "",
+                "20",
+                ""
+              ]
             }
           ]
         },
@@ -9401,6 +9533,18 @@
               "parameters": [
                 "MC",
                 "\"knockbackTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Hit.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -9558,6 +9702,18 @@
               "parameters": [
                 "MC",
                 "\"knockbackTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Hit.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -10249,7 +10405,7 @@
               },
               "parameters": [
                 "",
-                "assets\\LightSwitch.wav",
+                "assets\\Audio\\LightSwitch.wav",
                 "",
                 "",
                 ""
@@ -11998,7 +12154,7 @@
               },
               "parameters": [
                 "",
-                "assets\\firstNes.wav",
+                "assets\\Audio\\songforvideo.wav",
                 "yes",
                 "20",
                 ""
@@ -12472,7 +12628,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Step.wav",
+                "assets\\Audio\\Step.wav",
                 "",
                 "20",
                 ""
@@ -12612,7 +12768,7 @@
               },
               "parameters": [
                 "",
-                "assets\\SwordSlash.wav",
+                "assets\\Audio\\SwordSlash.wav",
                 "",
                 "30",
                 ""
@@ -12963,7 +13119,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Roll.wav",
+                "assets\\Audio\\Roll.wav",
                 "",
                 "30",
                 ""
@@ -13019,7 +13175,7 @@
               },
               "parameters": [
                 "",
-                "assets\\DashBeep.wav",
+                "assets\\Audio\\DashBeep.wav",
                 "",
                 "30",
                 ""
@@ -13269,6 +13425,18 @@
                 "burstCount",
                 "+",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Flame.wav",
+                "",
+                "20",
+                ""
               ]
             }
           ]
@@ -13574,6 +13742,18 @@
                 "Flames",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Hit.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -13659,6 +13839,18 @@
               },
               "parameters": [
                 "Food",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Hit.wav",
+                "",
+                "",
                 ""
               ]
             }
@@ -13998,7 +14190,7 @@
               },
               "parameters": [
                 "",
-                "assets\\LightSwitch.wav",
+                "assets\\Audio\\LightSwitch.wav",
                 "",
                 "",
                 ""
@@ -15204,7 +15396,7 @@
               },
               "parameters": [
                 "",
-                "assets\\firstNes.wav",
+                "assets\\Audio\\songforvideo.wav",
                 "yes",
                 "20",
                 ""
@@ -15275,6 +15467,19 @@
               "parameters": [
                 "Boxes",
                 "\"iFrames\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Lawnmower.wav",
+                "2",
+                "yes",
+                "20",
+                ""
               ]
             }
           ]
@@ -15708,7 +15913,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Step.wav",
+                "assets\\Audio\\Step.wav",
                 "",
                 "20",
                 ""
@@ -15788,7 +15993,7 @@
               },
               "parameters": [
                 "",
-                "assets\\SwordSlash.wav",
+                "assets\\Audio\\SwordSlash.wav",
                 "",
                 "30",
                 ""
@@ -16139,7 +16344,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Roll.wav",
+                "assets\\Audio\\Roll.wav",
                 "",
                 "30",
                 ""
@@ -16195,7 +16400,7 @@
               },
               "parameters": [
                 "",
-                "assets\\DashBeep.wav",
+                "assets\\Audio\\DashBeep.wav",
                 "",
                 "30",
                 ""
@@ -16418,7 +16623,7 @@
               },
               "parameters": [
                 "",
-                "assets\\LightSwitch.wav",
+                "assets\\Audio\\LightSwitch.wav",
                 "",
                 "",
                 ""
@@ -16710,6 +16915,28 @@
                 "Lawnmower",
                 "\"chargeTimer\""
               ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Lawnmower.wav",
+                "2",
+                "yes",
+                "20",
+                ""
+              ]
             }
           ]
         },
@@ -16766,6 +16993,74 @@
                 "Lawnmower.Angle() + 90",
                 "750",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"chargeTimer\"",
+                ">=",
+                "2.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\LawnmowerCharge.wav",
+                "2",
+                "yes",
+                "40",
+                ""
               ]
             }
           ]
@@ -17024,6 +17319,28 @@
                 "Lawnmower",
                 "\"rushdown\""
               ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\LawnmowerCharge.wav",
+                "2",
+                "yes",
+                "40",
+                ""
+              ]
             }
           ]
         },
@@ -17078,6 +17395,28 @@
               "parameters": [
                 "Lawnmower",
                 "\"chargeTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Lawnmower.wav",
+                "2",
+                "yes",
+                "20",
+                ""
               ]
             }
           ]
@@ -17212,6 +17551,28 @@
               "parameters": [
                 "Lawnmower"
               ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Lawnmower.wav",
+                "2",
+                "yes",
+                "20",
+                ""
+              ]
             }
           ]
         },
@@ -17276,6 +17637,129 @@
               },
               "parameters": [
                 "Lawnmower"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\Lawnmower.wav",
+                "2",
+                "yes",
+                "20",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Lawnmower",
+                "\"rushdown\"",
+                "<",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Lawnmower",
+                "isBroke",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "switch",
+                "isLight",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-10, 10)",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Lawnmower",
+                "Lawnmower.Angle() + 90",
+                "750",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\Audio\\LawnmowerCharge.wav",
+                "2",
+                "yes",
+                "40",
+                ""
               ]
             }
           ]
@@ -17367,84 +17851,14 @@
                 "",
                 "\"Game Win - Bad\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Lawnmower",
-                "\"rushdown\"",
-                ">=",
-                "1"
-              ]
             },
             {
               "type": {
-                "value": "CompareObjectTimer"
+                "value": "StopSoundCanal"
               },
               "parameters": [
-                "Lawnmower",
-                "\"rushdown\"",
-                "<",
+                "",
                 "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Lawnmower",
-                "isBroke",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "switch",
-                "isLight",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "RotateTowardAngle"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Lawnmower.AngleToObject(MC) - 90 + RandomInRange(-10, 10)",
-                "0",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Lawnmower",
-                "Lawnmower.Angle() + 90",
-                "750",
-                "1"
               ]
             }
           ]
