@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 224,
+    "build": 226,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -5500,7 +5500,7 @@
               },
               "parameters": [
                 "",
-                "assets\\firstNes.wav",
+                "assets\\Audio\\songforvideo.wav",
                 "yes",
                 "20",
                 ""
@@ -5934,7 +5934,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Step.wav",
+                "assets\\Audio\\Step.wav",
                 "",
                 "20",
                 ""
@@ -6014,7 +6014,7 @@
               },
               "parameters": [
                 "",
-                "assets\\SwordSlash.wav",
+                "assets\\Audio\\SwordSlash.wav",
                 "",
                 "30",
                 ""
@@ -6365,7 +6365,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Roll.wav",
+                "assets\\Audio\\Roll.wav",
                 "",
                 "30",
                 ""
@@ -6421,7 +6421,7 @@
               },
               "parameters": [
                 "",
-                "assets\\DashBeep.wav",
+                "assets\\Audio\\DashBeep.wav",
                 "",
                 "30",
                 ""
@@ -6521,7 +6521,7 @@
               },
               "parameters": [
                 "",
-                "assets\\LightSwitch.wav",
+                "assets\\Audio\\LightSwitch.wav",
                 "",
                 "",
                 ""
@@ -20926,6 +20926,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Resource bar (separated units)",
+      "gdevelopVersion": "",
       "helpPath": "/objects/resource-bar",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWRvdHMtaG9yaXpvbnRhbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNiwxMkEyLDIgMCAwLDEgMTgsMTBBMiwyIDAgMCwxIDIwLDEyQTIsMiAwIDAsMSAxOCwxNEEyLDIgMCAwLDEgMTYsMTJNMTAsMTJBMiwyIDAgMCwxIDEyLDEwQTIsMiAwIDAsMSAxNCwxMkEyLDIgMCAwLDEgMTIsMTRBMiwyIDAgMCwxIDEwLDEyTTQsMTJBMiwyIDAgMCwxIDYsMTBBMiwyIDAgMCwxIDgsMTJBMiwyIDAgMCwxIDYsMTRBMiwyIDAgMCwxIDQsMTJaIiAvPjwvc3ZnPg==",
       "name": "TiledUnitsBar",
@@ -22605,6 +22606,7 @@
       "category": "Input",
       "extensionNamespace": "",
       "fullName": "Behavior Remapper",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFscGhhLXctYm94LW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNOSwxN0EyLDIgMCAwLDEgNywxNVY3SDlWMTVIMTFWOEgxM1YxNUgxNVY3SDE3VjE1QTIsMiAwIDAsMSAxNSwxN0g5TTUsM0gxOUEyLDIgMCAwLDEgMjEsNVYxOUEyLDIgMCAwLDEgMTksMjFINUEyLDIgMCAwLDEgMywxOVY1QTIsMiAwIDAsMSA1LDNNNSw1VjE5SDE5VjVINVoiIC8+PC9zdmc+",
       "name": "BehaviorRemapper",
@@ -23945,6 +23947,7 @@
       "category": "Movement",
       "extensionNamespace": "",
       "fullName": "Advanced projectile",
+      "gdevelopVersion": "",
       "helpPath": "/extensions/advanced-projectile/details",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWFycm93LWRlY2lzaW9uLWF1dG8iIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIsNUg5TDEzLDFMMTcsNUgxNFY5LjQzQzEzLjI1LDkuODkgMTIuNTgsMTAuNDYgMTIsMTEuMTJWNU0xMC40LDE1SDguNUw3LjgsMTNINC42TDMuOSwxNUgyTDUuMiw2SDcuMkwxMC40LDE1TTcuMzUsMTEuNjVMNi4yLDhMNS4wNSwxMS42NUg3LjM1TTIzLDExTDE5LDdWMTBDMTUuMzksOS44NSAxMi4zMSwxMi41NyAxMiwxNi4xN0MxMC40NCwxNi43MiA5LjYyLDE4LjQ0IDEwLjE3LDIwQzEwLjcyLDIxLjU2IDEyLjQ0LDIyLjM4IDE0LDIxLjgzQzE1LjU2LDIxLjI3IDE2LjM4LDE5LjU2IDE1LjgzLDE4QzE1LjUzLDE3LjE0IDE0Ljg1LDE2LjQ3IDE0LDE2LjE3QzE0LjQ3LDEyLjE3IDE4LjQ3LDExLjk3IDE4Ljk1LDExLjk3VjE0Ljk3TDIzLDExWiIgLz48L3N2Zz4=",
       "name": "AdvancedProjectile",
@@ -25721,6 +25724,7 @@
       "category": "Game mechanic",
       "extensionNamespace": "",
       "fullName": "Health points and damage",
+      "gdevelopVersion": "",
       "helpPath": "",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWhlYXJ0LWhhbGYtZnVsbCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNi41LDVDMTUsNSAxMy41OCw1LjkxIDEzLDcuMlYxNy43NEMxNy4yNSwxMy44NyAyMCwxMS4yIDIwLDguNUMyMCw2LjUgMTguNSw1IDE2LjUsNU0xNi41LDNDMTkuNTgsMyAyMiw1LjQxIDIyLDguNUMyMiwxMi4yNyAxOC42LDE1LjM2IDEzLjQ1LDIwLjAzTDEyLDIxLjM1TDEwLjU1LDIwLjAzQzUuNCwxNS4zNiAyLDEyLjI3IDIsOC41QzIsNS40MSA0LjQyLDMgNy41LDNDOS4yNCwzIDEwLjkxLDMuODEgMTIsNS4wOEMxMy4wOSwzLjgxIDE0Ljc2LDMgMTYuNSwzWiIgLz48L3N2Zz4=",
       "name": "Health",
@@ -30583,6 +30587,7 @@
       "category": "User interface",
       "extensionNamespace": "",
       "fullName": "Panel sprite button",
+      "gdevelopVersion": "",
       "helpPath": "/objects/button",
       "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI5LDIzSDNjLTEuMSwwLTItMC45LTItMlYxMWMwLTEuMSwwLjktMiwyLTJoMjZjMS4xLDAsMiwwLjksMiwydjEwQzMxLDIyLjEsMzAuMSwyMywyOSwyM3oiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxOUwxMywxOWMtMS4xLDAtMi0wLjktMi0ydi0yYzAtMS4xLDAuOS0yLDItMmgwYzEuMSwwLDIsMC45LDIsMnYyQzE1LDE4LjEsMTQuMSwxOSwxMywxOXoiLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxOCIgeTE9IjEzIiB4Mj0iMTgiIHkyPSIxOSIvPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxIiB5MT0iMTMiIHgyPSIxOCIgeTI9IjE3Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjEiIHkxPSIxOSIgeDI9IjE5IiB5Mj0iMTYiLz4NCjwvc3ZnPg0K",
       "name": "PanelSpriteButton",
